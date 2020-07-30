@@ -1,16 +1,8 @@
-# Cornershop's backend integrations test
-
-## Before you begin
-
-Read this README completely before starting. There whole content of this document is relevant for the test and there are some important tips and notes in every section.
-
-Before you begin, create a new private repository. Once you have finished the test, invite @jeffersonlizar @lbenitez000 as collaborators and send the link to the repository to your recruiter telling them you have finished.
-
 ## Introduction
 
 This is the technical test for backend integration engineers. It's focused on connecting to remote services, gathering and processing data, finally storing it in the project's models.
 
-A common task at Cornershop is collecting product information from external sources like websites and files. This test covers both tasks with simple cases:
+A common task at Company XYZ is collecting product information from external sources like websites and files. This test covers both tasks with simple cases:
 
 - **Case 1**: Scraping a product department at Walmart Canada's website
 - **Case 2**: Processing CSV files to extract clean information
@@ -47,7 +39,7 @@ The BranchProduct model contains the attributes of a product that are specific f
 
 ## Case 1
 
-Cornershop is expanding to Canada and we want to provide our customers with the very best stores available in their city. One of them is [Walmart](https://www.walmart.ca/). They offer a very broad selection of products, from breakfast cereals to gym equipment. We need to ingest their product information and store it in our database before we can offer them to our customers.
+Company XYZ is expanding to Canada and we want to provide our customers with the very best stores available in their city. One of them is [Walmart](https://www.walmart.ca/). They offer a very broad selection of products, from breakfast cereals to gym equipment. We need to ingest their product information and store it in our database before we can offer them to our customers.
 
 The product information we need is:
 
@@ -90,7 +82,7 @@ There is **no need** to create an account or sign-in.
 The web crawler **must be implemented using [Scrapy](https://scrapy.org/)**. A ready-to-go project template is provided.
 
 ## Case 2
-We have just signed a very important deal with one of the main retailers in Toronto: *Richart's Wholesale Club*. To improve the store's customer experience at Cornershop, our new partner has decided to send us periodical updates of their products, prices, and status. To accomplish this, they'll share multiple CSV files containing all the information.
+We have just signed a very important deal with one of the main retailers in Toronto: *Richart's Wholesale Club*. To improve the store's customer experience at Company XYZ, our new partner has decided to send us periodical updates of their products, prices, and status. To accomplish this, they'll share multiple CSV files containing all the information.
 
 You can find the latest version of these files in the `assets/` directory:
 - **PRODUCTS.csv**: Contains the product's basic information.
