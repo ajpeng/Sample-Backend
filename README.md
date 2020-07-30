@@ -1,6 +1,6 @@
 ## Introduction
 
-This is the technical test for backend integration engineers. It's focused on connecting to remote services, gathering and processing data, finally storing it in the project's models.
+This is a technical test for backend integration engineers. It's focused on connecting to remote services, gathering and processing data, finally storing it in the project's models.
 
 A common task at Company XYZ is collecting product information from external sources like websites and files. This test covers both tasks with simple cases:
 
